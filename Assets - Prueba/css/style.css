@@ -20,9 +20,16 @@ header {
   background-position: left;
   padding-bottom: 30em;
 }
+header h1 {
+  font-size: 8vw;
+}
 
 #experiencia i {
   color: #660066;
+}
+
+#ultimos-trabajos {
+  background-color: #660066;
 }
 
 footer {
