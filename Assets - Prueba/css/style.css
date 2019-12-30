@@ -19,8 +19,9 @@ header {
   background-size: cover;
   background-position: left;
   padding-bottom: 30em;
+  height: 650px;
 }
-header h1 {
+.nombre {
   font-size: 8vw;
   font-family: "Oswald", sans-serif;
 }
@@ -29,6 +30,7 @@ header h1 {
   padding-top: 200px;
   font-family: "Oswald", sans-serif;
   font-weight: lighter;
+  font-size: 8vw;
 }
 .sobre-mi h2 {
   font-family: "Open Sans", sans-serif;
@@ -36,7 +38,11 @@ header h1 {
 .sobre-mi h3 {
   font-family: "Open Sans", sans-serif;
 }
-#experiencia h1 {
+
+#experiencia {
+  padding-top: 5em;
+}
+.experiencia h1 {
   font-family: "Oswald", sans-serif;
   font-size: 5vw;
 }
@@ -47,8 +53,9 @@ header h1 {
 
 #ultimos-trabajos {
   background-color: #660066;
+  padding-top: 5em;
 }
-#ultimos-trabajos h1 {
+.ult-trabajo h1 {
   font-family: "Oswald", sans-serif;
   font-size: 5vw;
 }
@@ -57,7 +64,10 @@ header h1 {
   font-family: "Open Sans", sans-serif;
 }
 
-#contacto h1 {
+#contacto {
+  padding-top: 7em;
+}
+.contacto h1 {
   font-family: "Oswald", sans-serif;
   font-size: 5vw;
 }
@@ -87,4 +97,19 @@ footer h3 {
   height: 1px;
   background-color: white;
   width: 10%;
+}
+@media (min-width: 250px) and (max-width: 576px) {
+  .icon {
+    font-size: 30px;
+  }
+
+  h1,
+  h2 {
+    font-size: 10vw;
+  }
+}
+@media (min-width: 576px) {
+  .icon {
+    font-size: 7vw;
+  }
 }
