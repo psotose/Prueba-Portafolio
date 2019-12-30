@@ -24,6 +24,10 @@ header h1 {
   font-size: 8vw;
 }
 
+.textoarriba {
+  padding-top: 200px;
+}
+
 #experiencia i {
   color: #660066;
 }
@@ -40,4 +44,16 @@ footer h3 {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 3em;
+}
+
+.linea-header {
+  border-top: 5px solid white;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.linea2secciones {
+  border-top: 5px solid black;
+  width: 10%;
+  margin: 0 auto;
 }
