@@ -3,7 +3,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.bg-oscuro {
+.bg-violeta {
   background-color: #660066;
 }
 
@@ -13,6 +13,18 @@ body {
   font-size: 2em;
 }
 
+header {
+  background-image: url(../img/bg_hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 30em;
+}
+
+#experiencia i {
+  color: #660066;
+}
+
 footer {
   background-color: #660066;
 }
@@ -20,5 +32,5 @@ footer {
 footer h3 {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 3em;
 }
